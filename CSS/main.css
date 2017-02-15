@@ -1,0 +1,78 @@
+/******************************************************
+*              Style Para Header y Nav                *
+*                                                     *
+*********************************************8********/
+
+header{
+    text-align: center;
+    background: url("/Imagenes/skull%20green%20(2016_08_05%2018_48_44%20UTC).jpg");
+    background-size: cover;
+    color:white;
+}
+
+h1{
+  font-size: 70px;  
+}
+
+nav{
+    text-align: center;
+    background-color:black;
+}
+
+ul{
+    padding: 10px;
+    background: rgba(0,0,0,0.5)
+}
+
+li{
+    list-style:none;
+    display: inline;
+    padding:0px 10px 0px 10px; 
+}
+
+a{
+    color:white;
+    text-decoration:none;   
+}
+
+img{
+    margin:40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 40px;
+    width: 35%;
+}
+
+
+/************************
+        Section
+*************************/
+
+article{
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align:justify;
+}
+
+
+/**************************
+        Responsive Design
+*************************/
+
+@media (max-width: 500px){
+    h1 {font-size: 36px;}
+    
+    li{
+        display:block;
+        padding:5px;
+    }
+}
+
+/* Footer */
+
+footer{
+    max-height: 300px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
